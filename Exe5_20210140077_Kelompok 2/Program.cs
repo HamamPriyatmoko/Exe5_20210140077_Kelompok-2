@@ -39,7 +39,14 @@ namespace Exe5_20210140077_Kelompok_2
         }
         public void delete()
         {
-            
+            if (Hamam == null)
+            {
+                Console.WriteLine("Queue is Empty!!!");
+                return;
+            }
+            Hamam = Hamam.next;
+            if (Hamam == null)
+                Priyatmoko = null;
         }
     }
     class Program
