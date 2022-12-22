@@ -37,6 +37,10 @@ namespace Exe5_20210140077_Kelompok_2
             Hamam = newnode;
             Priyatmoko = newnode;
         }
+        public void delete()
+        {
+            
+        }
     }
     class Program
     {
