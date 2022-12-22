@@ -48,6 +48,10 @@ namespace Exe5_20210140077_Kelompok_2
             if (Hamam == null)
                 Priyatmoko = null;
         }
+        public void display()
+        {
+            
+        }
     }
     class Program
     {
