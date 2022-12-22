@@ -50,7 +50,14 @@ namespace Exe5_20210140077_Kelompok_2
         }
         public void display()
         {
-            
+            if (Hamam == null)
+            {
+                Console.WriteLine("Queue is Empty or Filled !!!");
+                return;
+            }
+            Node display;
+            for (display = Hamam; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
     }
     class Program
