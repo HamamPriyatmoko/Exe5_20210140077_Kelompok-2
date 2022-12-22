@@ -15,8 +15,12 @@ namespace Exe5_20210140077_Kelompok_2
     class queue
     {
         Node Hamam, Priyatmoko;
-        
-        
+        public queue()
+        {
+            Hamam = null;
+            Priyatmoko = null;
+        }
+
     }
     class Program
     {
